@@ -1,10 +1,10 @@
 def primary():
 
-  f = open("quotes.txt")
-  quotes = f.readlines()
-  f.close()
+  nevean = open("quotes.txt")
+  quotes = nevean.readlines()
+  nevean.close()
 
-  print(quotes)
+  print(quotes[0])
 
 if __name__== "__main__":
  primary()
