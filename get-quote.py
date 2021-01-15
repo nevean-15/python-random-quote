@@ -1,8 +1,8 @@
 def primary():
 
-  nevean = open("quotes.txt")
-  quotes = nevean.readlines()
-  nevean.close()
+  f = open("quotes.txt")
+  quotes = f.readlines()
+  f.close()
 
   print(quotes[0])
 
